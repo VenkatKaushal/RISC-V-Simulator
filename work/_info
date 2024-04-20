@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator
+vPC
+!s110 1713643421
+!i10b 1
+!s100 zJ5zG0jL?=EnOXiF<eOI63
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[Nf@f3HFo3lU_Eb0>NG<Y2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1713643414
+8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v
+FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v
+!i122 5
+L0 1 11
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1713643420.000000
+!s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v|
+!s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@p@c
+vPC_Adder
+!s110 1713643077
+!i10b 1
+!s100 bLOAUY;L>VbBgeijl@hZ=0
+R1
+IdinEz>SD@Wh9[8cW3W83g0
+R2
+R0
+w1713643015
+8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC_Adder.v
+FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC_Adder.v
+!i122 2
+L0 1 10
+R3
+r1
+!s85 0
+31
+!s108 1713643077.000000
+!s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC_Adder.v|
+!s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC_Adder.v|
+!i113 1
+R4
+R5
+n@p@c_@adder
+vtb_PC
+!s110 1713643924
+!i10b 1
+!s100 BM`bYXek=fSJcJ:e5I3>V1
+R1
+I3NlzQFKR2YQ^A2l3g>HQm0
+R2
+R0
+w1713643919
+8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/tb_PC.v
+FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/tb_PC.v
+!i122 8
+L0 1 60
+R3
+r1
+!s85 0
+31
+!s108 1713643924.000000
+!s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/tb_PC.v|
+!s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/tb_PC.v|
+!i113 1
+R4
+R5
+ntb_@p@c
