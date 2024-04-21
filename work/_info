@@ -9,20 +9,43 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator
+vdecode
+!s110 1713676313
+!i10b 1
+!s100 =W:Qa<aDSoA_[1D@[@eGK2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IA0Za?o8AAWGf?>:21RHUV1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1713676308
+8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/decode.v
+FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/decode.v
+!i122 14
+L0 1 121
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1713676313.000000
+!s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/decode.v|
+!s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/decode.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
 vinstruction_memory
 !s110 1713645061
 !i10b 1
 !s100 o[l44NXR]2h_L@cnmBmg91
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+R1
 I@k]I=I:;:7NO@ZUniCE1]3
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+R2
 R0
 w1713645054
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory.v
 !i122 11
 L0 1 48
-Z3 OV;L;2020.1;71
+R3
 r1
 !s85 0
 31
@@ -30,8 +53,8 @@ r1
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory.v|
 !i113 1
-Z4 o-work work
-Z5 tCvgOpt 0
+R4
+R5
 vinstruction_memory_tb
 !s110 1713645063
 !i10b 1
