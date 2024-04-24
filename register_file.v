@@ -1,5 +1,5 @@
 module register_file(
-    input wire clk,                    // Clock input
+    input reg clk,                    // Clock input
     input wire write_enable,           // Write enable signal
     input wire [4:0] read_reg1,        // Address of the first register to read
     input wire [4:0] read_reg2,        // Address of the second register to read

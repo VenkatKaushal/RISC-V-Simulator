@@ -1,6 +1,7 @@
-module instruction_memory(
+ module instruction_memory(
     input wire [31:0] addr, // Address input
-    output reg [31:0] instr // Instruction output
+    output reg [31:0] instr, // Instruction output
+    input reg clk
 );
 
     // Define the size of the memory, e.g., 256 instructions of 32 bits
@@ -41,7 +42,7 @@ module instruction_memory(
     end
 
     // Read the instruction from memory
-    always @(addr) begin
+    always @(posedge clk) begin
         instr = memory_array[addr]; // Assuming word-aligned addresses
     end
 

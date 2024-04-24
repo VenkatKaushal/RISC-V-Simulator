@@ -4,11 +4,8 @@ module PC_Adder (
     output reg [31:0] pc_out
 );
 
-    always @(*) begin
-        if (enable)
-            pc_out = pc_in + 4;
-        else
-            pc_out = pc_in;
+    always @(posedge enable) begin
+        pc_out = pc_in + 4;
     end
 
 endmodule

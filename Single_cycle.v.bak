@@ -1,0 +1,47 @@
+module single_cycle();
+
+reg clk;
+reg [31:0]pc_in;
+wire [31:0]pc_out;
+reg [31:0] instr;
+
+reg [4:0] rd;
+reg [4:0] rs1;
+reg [4:0] rs2;
+reg [11:0] immed;
+reg [3:0] alu_op;
+
+reg [31:0] reg_data;     // Data from the register file
+reg [31:0] imm_data;     // Immediate data
+reg [31:0] alu_result;   // Result from the ALU (for forwarding)
+reg reg_data_select;     // Select signal for the first MUX (input A)
+reg imm_data_select;  // Select signal for the second MUX (input B)
+reg [31:0] alu_input_a; // First ALU operand
+reg [31:0] alu_input_b;
+
+
+wire mem_read;
+wire mem_write;
+
+reg [31:0]temp_pc1;
+assign temp_pc = pc_out;
+
+wire[31:0] temp_pc2;
+assign pc_in = temp_pc2;
+
+PC uut1(pc_in, clk, pc_out);
+PC_Adder uut2(temp_pc1, clk, temp_pc2);
+instruction_memory uut3(pc_out, instr);
+decode uut4(instr, rd, rs1, rs2, immed, alu_op, clk);
+register_file uut5(clk, rs1, rs2, immed, alu_op);
+immediate_block uut6(instruction, immediate);
+alu_input_muxes uut7(reg_data, imm_data, alu_result, reg_data_select, imm_data_select, alu_input_a, alu_input_b);
+alu uut8(alu_input_a, alu_input_b, clk, alu_result);
+
+
+always @(posedge clk)
+begin
+    pc_in <= pc_out;
+end
+
+endmodule
