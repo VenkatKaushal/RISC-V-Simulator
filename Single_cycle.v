@@ -2,22 +2,22 @@ module single_cycle(
     input wire clk
 );
 
-reg [31:0] pc_in = 32'b0;
-reg pc_enable = 1'b0;
-reg [31:0] pc_out = 32'b0;
+reg [31:0] pc_in ;
+reg pc_enable;
+wire [31:0] pc_out;
 
-reg [31:0] temp_pc_in = 32'b0;
+reg [31:0] temp_pc_in;
 reg pc_adder_enable = 1'b0;
-reg [31:0] temp_pc_out = 32'b0;
+wire [31:0] temp_pc_out = 32'b0;
 
 wire [31:0] addr;
 reg instr_enable = 1'b0;
-reg [31:0] instr_out;
+wire [31:0] instr_out;
 
 wire [31:0] instr_in;
-reg [4:0] rd_out, rs1_out, rs2_out;
-reg [11:0] immed_out;
-reg [3:0] alu_op;
+wire [4:0] rd_out, rs1_out, rs2_out;
+wire [11:0] immed_out;
+wire [3:0] alu_op;
 reg decode_enable = 1'b0;
 
 reg register_enable = 1'b0;
@@ -26,7 +26,7 @@ wire [4:0] rd_in, rs1_in, rs2_in;
 wire [31:0] reg_data;
 wire [31:0]read_data1, read_data2;
 
-reg[31:0] imm_data;
+wire [31:0] imm_data;
 reg immed_enable;
 
 wire [31:0] alu_result;
@@ -40,7 +40,7 @@ reg alu_enable = 1'b0;
 
 PC uut1(pc_in, pc_enable, pc_out);
 
-PC_Adder uut2(temp_pc_in, pc_adder_enable, temp_pc1_out); 
+PC_Adder uut2(temp_pc_in, pc_adder_enable, temp_pc_out); 
 
 instruction_memory uut3(addr, instr_out, instr_enable); 
 

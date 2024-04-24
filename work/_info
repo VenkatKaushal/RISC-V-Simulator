@@ -194,7 +194,7 @@ r1
 R4
 R5
 vPC
-!s110 1713960387
+!s110 1713964739
 !i10b 1
 !s100 T^T2lE[Y@`hANK[Oa:<?Y0
 R1
@@ -204,13 +204,13 @@ R0
 w1713959907
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v
-!i122 112
+!i122 119
 Z7 L0 1 11
 R3
 r1
 !s85 0
 31
-!s108 1713960387.000000
+!s108 1713964739.000000
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v|
 !i113 1
@@ -218,23 +218,23 @@ R4
 R5
 n@p@c
 vPC_Adder
-Z8 !s110 1713960388
+!s110 1713962912
 !i10b 1
-!s100 lYIMIbcNTiTNA]7:MGDCW0
+!s100 YVKzMC0SjAPY[^D4X4S=O0
 R1
-IWAb;CUf?bg1NdSEA97iig3
+I:0O80^QS4CYdJI^nU<AFS0
 R2
 R0
-w1713956407
+w1713960483
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC_Adder.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC_Adder.v
-!i122 113
+!i122 117
 R7
 R3
 r1
 !s85 0
 31
-Z9 !s108 1713960388.000000
+!s108 1713962912.000000
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC_Adder.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC_Adder.v|
 !i113 1
@@ -242,7 +242,7 @@ R4
 R5
 n@p@c_@adder
 vregister_file
-R8
+!s110 1713960388
 !i10b 1
 !s100 0h8EQdoaALa]RZO16E?FZ3
 R1
@@ -258,30 +258,30 @@ R3
 r1
 !s85 0
 31
-R9
+!s108 1713960388.000000
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/register_file.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/register_file.v|
 !i113 1
 R4
 R5
 vsingle_cycle
-!s110 1713960389
+!s110 1713964913
 !i10b 1
-!s100 DEJ7?=4V@n?[j47I>UnCU3
+!s100 fahe1Mlzo^_G`<8?b`e9g2
 R1
-IC7c=bf]NPbX<_iaH??47i1
+IR=_Hke:YA3]AAf09_98GA1
 R2
 R0
-w1713960360
+w1713964878
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/Single_cycle.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/Single_cycle.v
-!i122 115
+!i122 124
 L0 1 64
 R3
 r1
 !s85 0
 31
-!s108 1713960389.000000
+!s108 1713964913.000000
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/Single_cycle.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/Single_cycle.v|
 !i113 1

@@ -1,6 +1,6 @@
 module PC_Adder (
     input reg [31:0] pc_in,
-    input enable,
+    input reg enable,
     output reg [31:0] pc_out
 );
 
