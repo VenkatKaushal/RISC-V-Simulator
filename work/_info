@@ -56,23 +56,23 @@ r1
 R4
 R5
 valu_mux
-!s110 1713960374
+!s110 1713971240
 !i10b 1
-!s100 ;M;aYn1dNKJY3dOcZY_`30
+!s100 zbmRELVCBdZ;N<BI9D3m42
 R1
-Im8So8D7ciUa^f]Cl?5`PU2
+IFBQ<_]]<J6MVW64M185EP2
 R2
 R0
-w1713956675
+w1713970868
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_mux.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_mux.v
-!i122 101
+!i122 132
 Z6 L0 1 14
 R3
 r1
 !s85 0
 31
-!s108 1713960374.000000
+!s108 1713971240.000000
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_mux.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_mux.v|
 !i113 1
@@ -265,23 +265,23 @@ r1
 R4
 R5
 vsingle_cycle
-!s110 1713964913
+!s110 1713972498
 !i10b 1
-!s100 fahe1Mlzo^_G`<8?b`e9g2
+!s100 M^[gVaA49=NM<l@TocPCM1
 R1
-IR=_Hke:YA3]AAf09_98GA1
+IX=L<PU>LM[HZ>nzY]n9o>2
 R2
 R0
-w1713964878
+w1713972494
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/Single_cycle.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/Single_cycle.v
-!i122 124
-L0 1 64
+!i122 139
+L0 1 80
 R3
 r1
 !s85 0
 31
-!s108 1713964913.000000
+!s108 1713972498.000000
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/Single_cycle.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/Single_cycle.v|
 !i113 1
