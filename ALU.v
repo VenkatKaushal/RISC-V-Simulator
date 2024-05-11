@@ -2,9 +2,13 @@ module alu(
     input wire [31:0] a,          // First operand
     input wire [31:0] b,          // Second operand
     input wire [3:0] alu_control, // ALU control signal
+    input wire alu_enable,
     output reg [31:0] result,     // Result of the operation
     output reg zero,              // Zero flag
-    output reg [31:0] mem_address // Memory address for store operation
+    output reg [31:0] mem_address, // Memory address for store operation
+    output reg mem_read = 1'b0,
+    output reg mem_write = 1'b0,
+    output reg reg_write
 );
 
     // Define operation codes
@@ -30,63 +34,50 @@ module alu(
     subtractor sub_inst(.a(a), .b(b), .difference(sub_result));
 
     // Perform the operation based on the alu_control signal
-    always @(*) begin
-        case (alu_control)
-            ALU_ADD: begin
-                result = add_result; // Output addition result
-            end
-            ALU_SUB: begin
-                result = sub_result; // Output subtraction result
-            end
-            ALU_AND: result = a & b;          // Bitwise AND
-            ALU_OR:  result = a | b;          // Bitwise OR
-            ALU_XOR: result = a ^ b;          // Bitwise XOR
-            ALU_SLL: result = a << b;         // Shift Left Logical
-            ALU_SRL: result = a >> b;         // Shift Right Logical
-            ALU_SRA: result = $signed(a) >>> b; // Shift Right Arithmetic
-            ALU_SLT: result = (a < b) ? 1 : 0; // Set Less Than (signed)
-            ALU_SLTU: result = (a < b) ? 1 : 0; // Set Less Than Unsigned (unsigned)
-            ALU_LW: begin
-                // LW operation: Calculate memory address by adding offset to base address
-                result = a + b;
-                mem_address = result; // Set memory address for load operation
-            end
-            ALU_SW: begin
-                // SW operation: Calculate memory address by adding offset to base address
-                result = a + b;
-                mem_address = result; // Set memory address for store operation
-            end
-            default: begin
-                result = 32'b0;          // Default case
-                mem_address = 32'b0;     // Default case for memory address
-            end
-        endcase
+    always @(alu_enable) begin
+        if(alu_enable == 1'b1) begin
+            
+            case (alu_control)
+                ALU_ADD: begin
+                    result = add_result; // Output addition result
+                    $monitor("I am in AL");
+                    reg_write = 1'b1;
+
+                end
+                ALU_SUB: begin
+                    result = sub_result; // Output subtraction result
+                    reg_write = 1'b1;
+                end
+                ALU_AND: begin result = a & b; reg_write = 1'b1;end         // Bitwise AND
+                ALU_OR:  begin result = a | b; reg_write = 1'b1;end         // Bitwise OR
+                ALU_XOR: begin result = a ^ b; reg_write = 1'b1;end        // Bitwise XOR
+                ALU_SLL: begin result = a << b; reg_write = 1'b1;end        // Shift Left Logical
+                ALU_SRL: begin result = a >> b; reg_write = 1'b1;end        // Shift Right Logical
+                ALU_SRA: begin result = $signed(a) >>> b; reg_write = 1'b1;end // Shift Right Arithmetic
+                ALU_SLT: begin result = (a < b) ? 1 : 0; reg_write = 1'b1;end // Set Less Than (signed)
+                ALU_SLTU: begin result = (a < b) ? 1 : 0; reg_write = 1'b1;end // Set Less Than Unsigned (unsigned)
+                ALU_LW: begin
+                    // LW operation: Calculate memory address by adding offset to base address
+                    result = a + b;
+                    mem_address = result; // Set memory address for load operation
+                    mem_read = 1'b1;
+                    reg_write = 1'b1;
+                end
+                ALU_SW: begin
+                    // SW operation: Calculate memory address by adding offset to base address
+                    result = a + b;
+                    mem_address = result;
+                    mem_write = 1'b1; // Set memory address for store operation
+                end
+                default: begin
+                    result = 32'b0;          // Default case
+                    mem_address = 32'b0;     // Default case for memory address
+                end
+            endcase
+        end
 
         // Set the zero flag if the result is zero
         zero = (result == 32'b0);
     end
-
-
-    module adder(
-        input [31:0] a,
-        input [31:0] b,
-        output [31:0] sum
-    );
-        wire [31:0] carry;
-        
-        assign sum = a ^ b ^ carry;
-        assign carry = (a & b) | (a & carry) | (b & carry);
-    endmodule
-
-    module subtractor(
-        input [31:0] a,
-        input [31:0] b,
-        output [31:0] difference
-    );
-        wire [31:0] borrow;
-        
-        assign difference = a ^ b ^ borrow;
-        assign borrow = (~a & b) | ((~a | b) & borrow);
-    endmodule
 
 endmodule

@@ -22,7 +22,7 @@ module decode(
     parameter SLTU_OPCODE = 7'b0001010;
     parameter LW_OPCODE = 7'b0001011;
     parameter SW_OPCODE = 7'b0001100;
-    parameter ADDI_OPCODE = 7'b0001101;
+    parameter ADDI_OPCODE = 7'0001101;
 
     // Decode the instruction
     always @(posedge clk) begin
@@ -117,15 +117,15 @@ module decode(
                 rs2 = instr[24:20];
                 immed = {instr[31:25], instr[11:7]};
                 alu_op = 4'd12; // Store Word
-                write_enable = 1'b1;
+                write_enable = 1'b0;
             end
-            ADDI_OPCODE: begin
-                rd = instr[11:7];
-                rs1 = instr[19:15];
-                immed = instr[31:20];
-                alu_op = 4'd1;
-                write_enable = 1'b1;
-            end
+	    ADDI_OPCODE: begin
+		rd = instr[11:7];
+		rs1 = instr[19:15];
+		immed = instr[31:20];
+		alu_op = 4'd1;
+		write_enable = 1'b0;
+	    end
         endcase
     end
 

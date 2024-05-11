@@ -9,305 +9,351 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator
-valu
-!s110 1713960306
+vadder
+Z1 !s110 1715442302
 !i10b 1
-!s100 AR`@ic`V=dWWePYdz`4o13
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IR5O[QYO8Q;K?c2Jl]EFP91
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s100 SU>j[_HjgcdViHcKk34F=2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IaDfhW^Uogi^1:I9?34gGl2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1713861230
-8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/ALU.v
-FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/ALU.v
-!i122 99
-L0 1 12
-Z3 OV;L;2020.1;71
+w1714124458
+8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/adder.v
+FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/adder.v
+!i122 465
+L0 1 17
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1713960306.000000
+Z5 !s108 1715442302.000000
+!s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/adder.v|
+!s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/adder.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+valu
+R1
+!i10b 1
+!s100 RRAG>0KhhFOC6U<U@U6:T3
+R2
+I_NBg>mz9W@_Kbj0V[Gak00
+R3
+R0
+w1715433251
+8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/ALU.v
+FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/ALU.v
+!i122 466
+L0 1 83
+R4
+r1
+!s85 0
+31
+R5
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/ALU.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/ALU.v|
 !i113 1
-Z4 o-work work
-Z5 tCvgOpt 0
+R6
+R7
 valu_input_muxes
-!s110 1713960373
-!i10b 1
-!s100 @kXPS8aSd@a`P=cV6:R;:0
 R1
-IFTMD_^amUSz>ERi1IchoS1
+!i10b 1
+!s100 ;R5=2CO9cz_;o7OZ[NUJD0
 R2
+I;g_bP`anTkGeFaA:]7cVX3
+R3
 R0
-w1713956615
+w1714148994
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_input_muxes.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_input_muxes.v
-!i122 100
-L0 1 37
-R3
+!i122 467
+L0 1 33
+R4
 r1
 !s85 0
 31
-!s108 1713960372.000000
+R5
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_input_muxes.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_input_muxes.v|
 !i113 1
-R4
-R5
+R6
+R7
 valu_mux
-!s110 1713971240
-!i10b 1
-!s100 zbmRELVCBdZ;N<BI9D3m42
 R1
-IFBQ<_]]<J6MVW64M185EP2
+!i10b 1
+!s100 :]E2SRIoQ5jQ03Xk`XJgm3
 R2
+I:JE_TWZ7<oMg7WP4z`N5^2
+R3
 R0
-w1713970868
+w1714139278
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_mux.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_mux.v
-!i122 132
-Z6 L0 1 14
-R3
+!i122 468
+L0 1 16
+R4
 r1
 !s85 0
 31
-!s108 1713971240.000000
+R5
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_mux.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_mux.v|
 !i113 1
-R4
-R5
+R6
+R7
 vdata_memory
-!s110 1713960379
-!i10b 1
-!s100 9TPGCAgff8^Va0LeL>CFA0
 R1
-I2hI[cQIJB08E3PR@aO:HT0
+!i10b 1
+!s100 XAJIOKD3lf8bDog0=P4Wg1
 R2
+Ih7;z[ITd?1YPeQon>Z<>E1
+R3
 R0
-w1713707002
+w1714136762
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/data_memory.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/data_memory.v
-!i122 105
+!i122 469
 L0 1 29
-R3
+R4
 r1
 !s85 0
 31
-!s108 1713960379.000000
+R5
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/data_memory.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/data_memory.v|
 !i113 1
-R4
-R5
+R6
+R7
 vdecode
-!s110 1713960380
-!i10b 1
-!s100 `NFCl4f6il@z:_Y82_:<02
 R1
-I4Em7CGh[:kzN>XVI>zXWV2
+!i10b 1
+!s100 cY1jLCZFN`GmLS2YlKeX<1
 R2
+IE2zaZ?e>[FDOoRTf;2GBm3
+R3
 R0
-w1713960090
+w1715442231
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/decode.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/decode.v
-!i122 106
-L0 1 111
-R3
+!i122 470
+L0 1 132
+R4
 r1
 !s85 0
 31
-!s108 1713960380.000000
+R5
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/decode.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/decode.v|
 !i113 1
-R4
-R5
+R6
+R7
 vimmediate_block
-!s110 1713960381
+R1
 !i10b 1
 !s100 UQCO^WT1?mgVSoG42E6@a1
-R1
-ISE:HDSaVI2ZV^nUf71Iz=3
 R2
+ISE:HDSaVI2ZV^nUf71Iz=3
+R3
 R0
 w1713959575
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/immediate_block.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/immediate_block.v
-!i122 107
-R6
-R3
+!i122 471
+L0 1 14
+R4
 r1
 !s85 0
 31
-!s108 1713960381.000000
+R5
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/immediate_block.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/immediate_block.v|
 !i113 1
-R4
-R5
+R6
+R7
 vinstruction_memory
-!s110 1713960385
-!i10b 1
-!s100 X3E^FD?MQVU<jG>8VX5ZR0
 R1
-Ib>N[iUEFXDl?Ld;RLle>a1
+!i10b 1
+!s100 c0e?Kf7KI6Mj=SjATcnK=2
 R2
+I[]9z:nCC@UUI<N8O@V`T83
+R3
 R0
-w1713956725
+w1715424550
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory.v
-!i122 110
+!i122 472
 L0 1 49
-R3
+R4
 r1
 !s85 0
 31
-!s108 1713960385.000000
+R5
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory.v|
 !i113 1
-R4
-R5
+R6
+R7
 vinstruction_memory_tb
-!s110 1713960386
+Z8 !s110 1715442303
 !i10b 1
 !s100 ^Wh0lPC7MWW8R:KU_oNbj0
-R1
-IAg[e8h<5^=0kC16JW8D[:2
 R2
+IAg[e8h<5^=0kC16JW8D[:2
+R3
 R0
 w1713644838
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory_tb.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory_tb.v
-!i122 111
+!i122 473
 L0 1 38
-R3
+R4
 r1
 !s85 0
 31
-!s108 1713960386.000000
+R5
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory_tb.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory_tb.v|
 !i113 1
-R4
-R5
+R6
+R7
 vPC
-!s110 1713964739
+R8
 !i10b 1
 !s100 T^T2lE[Y@`hANK[Oa:<?Y0
-R1
-Imf3`P3TE=T[9h6WzGG`He2
 R2
+Imf3`P3TE=T[9h6WzGG`He2
+R3
 R0
 w1713959907
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v
-!i122 119
-Z7 L0 1 11
-R3
+!i122 474
+Z9 L0 1 11
+R4
 r1
 !s85 0
 31
-!s108 1713964739.000000
+Z10 !s108 1715442303.000000
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v|
 !i113 1
-R4
-R5
+R6
+R7
 n@p@c
 vPC_Adder
-!s110 1713962912
+R8
 !i10b 1
-!s100 YVKzMC0SjAPY[^D4X4S=O0
-R1
-I:0O80^QS4CYdJI^nU<AFS0
+!s100 AF4X]4g:NRhK2Cn[]1YbS1
 R2
+I=RmOEl<N9PT]KA0chLzh02
+R3
 R0
-w1713960483
+w1713964975
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC_Adder.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC_Adder.v
-!i122 117
-R7
-R3
+!i122 475
+R9
+R4
 r1
 !s85 0
 31
-!s108 1713962912.000000
+R10
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC_Adder.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC_Adder.v|
 !i113 1
-R4
-R5
+R6
+R7
 n@p@c_@adder
 vregister_file
-!s110 1713960388
+R8
 !i10b 1
-!s100 0h8EQdoaALa]RZO16E?FZ3
-R1
-I<m78jDeL99C;o^]l=QC>_0
+!s100 14]lT8W8MFCh<NjYj`JSJ3
 R2
+I5d>aAF2dRGiOHJkj4cV]93
+R3
 R0
-w1713688536
+w1714148848
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/register_file.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/register_file.v
-!i122 114
-L0 1 27
-R3
+!i122 476
+L0 1 28
+R4
 r1
 !s85 0
 31
-!s108 1713960388.000000
+R10
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/register_file.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/register_file.v|
 !i113 1
-R4
-R5
+R6
+R7
 vsingle_cycle
-!s110 1713972498
+R8
 !i10b 1
-!s100 M^[gVaA49=NM<l@TocPCM1
-R1
-IX=L<PU>LM[HZ>nzY]n9o>2
+!s100 2PWZ]8e6>L5e6l44bPLNV0
 R2
+IFS6V>QWcFRlD]<@X0_oaN3
+R3
 R0
-w1713972494
+w1715442294
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/Single_cycle.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/Single_cycle.v
-!i122 139
-L0 1 80
-R3
+!i122 477
+L0 1 134
+R4
 r1
 !s85 0
 31
-!s108 1713972498.000000
+R10
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/Single_cycle.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/Single_cycle.v|
 !i113 1
+R6
+R7
+vsubtractor
+R8
+!i10b 1
+!s100 =X;7NHbKCTbHbk;cAPze<3
+R2
+IE4]0mJhz@0hT0VS_I:BTo2
+R3
+R0
+w1714070036
+8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/subtractor.v
+FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/subtractor.v
+!i122 478
+L0 1 10
 R4
-R5
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/subtractor.v|
+!s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/subtractor.v|
+!i113 1
+R6
+R7
 vtb_PC
-!s110 1713960390
+R8
 !i10b 1
 !s100 BM`bYXek=fSJcJ:e5I3>V1
-R1
-I3NlzQFKR2YQ^A2l3g>HQm0
 R2
+I3NlzQFKR2YQ^A2l3g>HQm0
+R3
 R0
 w1713643919
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/tb_PC.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/tb_PC.v
-!i122 116
+!i122 479
 L0 1 60
-R3
+R4
 r1
 !s85 0
 31
-!s108 1713960390.000000
+R10
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/tb_PC.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/tb_PC.v|
 !i113 1
-R4
-R5
+R6
+R7
 ntb_@p@c

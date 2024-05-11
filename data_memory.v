@@ -1,6 +1,6 @@
 module data_memory #(
     parameter DATA_WIDTH = 32, // Width of the data
-    parameter ADDR_WIDTH = 10, // Width of the addresses (for a 1024-depth memory)
+    parameter ADDR_WIDTH = 32, // Width of the addresses (for a 2^32-depth memory)
     parameter MEM_DEPTH = 1 << ADDR_WIDTH // Depth of the memory, 2^ADDR_WIDTH
 )(
     input wire clk,                          // Clock signal
