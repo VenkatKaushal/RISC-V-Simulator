@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator
 vadder
-Z1 !s110 1715442302
+Z1 !s110 1715447728
 !i10b 1
 !s100 SU>j[_HjgcdViHcKk34F=2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ R0
 w1714124458
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/adder.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/adder.v
-!i122 465
+!i122 540
 L0 1 17
 Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1715442302.000000
+Z5 !s108 1715447728.000000
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/adder.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/adder.v|
 !i113 1
@@ -40,10 +40,10 @@ R2
 I_NBg>mz9W@_Kbj0V[Gak00
 R3
 R0
-w1715433251
+w1715447334
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/ALU.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/ALU.v
-!i122 466
+!i122 541
 L0 1 83
 R4
 r1
@@ -66,7 +66,7 @@ R0
 w1714148994
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_input_muxes.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_input_muxes.v
-!i122 467
+!i122 542
 L0 1 33
 R4
 r1
@@ -89,7 +89,7 @@ R0
 w1714139278
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_mux.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/alu_mux.v
-!i122 468
+!i122 543
 L0 1 16
 R4
 r1
@@ -112,7 +112,7 @@ R0
 w1714136762
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/data_memory.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/data_memory.v
-!i122 469
+!i122 544
 L0 1 29
 R4
 r1
@@ -135,7 +135,7 @@ R0
 w1715442231
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/decode.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/decode.v
-!i122 470
+!i122 545
 L0 1 132
 R4
 r1
@@ -158,7 +158,7 @@ R0
 w1713959575
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/immediate_block.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/immediate_block.v
-!i122 471
+!i122 546
 L0 1 14
 R4
 r1
@@ -171,30 +171,30 @@ R5
 R6
 R7
 vinstruction_memory
-R1
+!s110 1715447891
 !i10b 1
-!s100 c0e?Kf7KI6Mj=SjATcnK=2
+!s100 `N1Ym10Bg8@mJFObEAVGC1
 R2
-I[]9z:nCC@UUI<N8O@V`T83
+I[[cGB7UJKQzUO0`cJgeb=1
 R3
 R0
-w1715424550
+w1715447875
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory.v
-!i122 472
+!i122 555
 L0 1 49
 R4
 r1
 !s85 0
 31
-R5
+!s108 1715447891.000000
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory.v|
 !i113 1
 R6
 R7
 vinstruction_memory_tb
-Z8 !s110 1715442303
+Z8 !s110 1715447729
 !i10b 1
 !s100 ^Wh0lPC7MWW8R:KU_oNbj0
 R2
@@ -204,7 +204,7 @@ R0
 w1713644838
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory_tb.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/instruction_memory_tb.v
-!i122 473
+!i122 548
 L0 1 38
 R4
 r1
@@ -227,13 +227,13 @@ R0
 w1713959907
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v
-!i122 474
+!i122 549
 Z9 L0 1 11
 R4
 r1
 !s85 0
 31
-Z10 !s108 1715442303.000000
+Z10 !s108 1715447729.000000
 !s107 C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v|
 !s90 -reportprogress|300|-work|work|C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC.v|
 !i113 1
@@ -243,15 +243,15 @@ n@p@c
 vPC_Adder
 R8
 !i10b 1
-!s100 AF4X]4g:NRhK2Cn[]1YbS1
+!s100 ]VmN4?FYk@:D5AVHG<Z1h2
 R2
-I=RmOEl<N9PT]KA0chLzh02
+Ik@GIM=WEFGk0FF@C4=Wfh0
 R3
 R0
-w1713964975
+w1715447718
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC_Adder.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/PC_Adder.v
-!i122 475
+!i122 550
 R9
 R4
 r1
@@ -275,7 +275,7 @@ R0
 w1714148848
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/register_file.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/register_file.v
-!i122 476
+!i122 551
 L0 1 28
 R4
 r1
@@ -295,10 +295,10 @@ R2
 IFS6V>QWcFRlD]<@X0_oaN3
 R3
 R0
-w1715442294
+w1715443568
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/Single_cycle.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/Single_cycle.v
-!i122 477
+!i122 552
 L0 1 134
 R4
 r1
@@ -321,7 +321,7 @@ R0
 w1714070036
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/subtractor.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/subtractor.v
-!i122 478
+!i122 553
 L0 1 10
 R4
 r1
@@ -344,7 +344,7 @@ R0
 w1713643919
 8C:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/tb_PC.v
 FC:/Users/vkthi/OneDrive/Desktop/RISC-V-Simulator/tb_PC.v
-!i122 479
+!i122 554
 L0 1 60
 R4
 r1

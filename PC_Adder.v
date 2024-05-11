@@ -5,7 +5,7 @@ module PC_Adder (
 );
 
     always @(posedge enable) begin
-        pc_out = pc_in + 4;
+        pc_out = pc_in + 1;
     end
 
 endmodule
